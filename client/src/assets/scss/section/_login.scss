@@ -1,0 +1,53 @@
+.login__wrap {
+    text-align: center;
+
+    .login__header {
+        background-color: var(--black);
+        padding: 2rem 0;
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--white);
+            padding-bottom: 0.8rem;
+        }
+
+        p {
+            color: var(--white);
+            padding-bottom: 2rem;
+        }
+    }
+
+    .login__form {
+        padding-top: 50px;
+        width: 360px;
+        margin: 0 auto;
+
+        fieldset {
+            border: none;
+        }
+
+        input {
+            border: 1px solid var(--white500);
+            padding: 15px;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            resize: none;
+            padding: 15px;
+            height: 250px;
+            border: 1px solid var(--white500);
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 100%;
+            background-color: var(--black);
+            color: var(--white);
+            padding: 15px;
+        }
+    }
+}
